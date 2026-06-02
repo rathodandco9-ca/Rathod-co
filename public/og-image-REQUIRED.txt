@@ -1,0 +1,5 @@
+CREATE THIS FILE: og-image.jpg (1200x630 pixels)
+Place it in the public/ folder as og-image.jpg
+Content: Rathod & Co. branded image with logo, tagline, and contact
+Tools: Canva.com -> Custom size 1200x630 -> Export as JPG
+This file is referenced in index.html meta tags and structured data

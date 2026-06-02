@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rathod & Co. — Light, airy, editorial design system
+   Alabaster + Slate + Muted Gold. All tokens in HSL. */
+
+@layer base {
+  :root {
+    /* Crisp alabaster background */
+    --background: 36 33% 98%;
+    --foreground: 215 18% 22%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 18% 22%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 18% 22%;
+
+    /* Slate primary, used sparingly for text/borders */
+    --primary: 215 22% 20%;
+    --primary-foreground: 36 33% 98%;
+    --primary-glow: 215 15% 38%;
+
+    /* Warm alabaster secondary */
+    --secondary: 36 30% 96%;
+    --secondary-foreground: 215 18% 22%;
+
+    --muted: 36 22% 94%;
+    --muted-foreground: 215 10% 42%;
+
+    /* Muted champagne gold */
+    --accent: 38 32% 60%;
+    --accent-foreground: 215 22% 20%;
+    --accent-soft: 38 45% 94%;
+
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 36 33% 98%;
+
+    --border: 38 16% 88%;
+    --input: 38 16% 90%;
+    --ring: 38 32% 60%;
+
+    --whatsapp: 142 55% 45%;
+    --whatsapp-foreground: 0 0% 100%;
+
+    --radius: 0.375rem;
+
+    /* Gradients — soft and airy, no dark blocks */
+    --gradient-hero: linear-gradient(180deg, hsl(36 33% 99%) 0%, hsl(36 28% 96%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(38 38% 72%) 0%, hsl(36 32% 58%) 100%);
+    --gradient-soft: linear-gradient(180deg, hsl(36 33% 99%) 0%, hsl(36 28% 95%) 100%);
+    --gradient-radial: radial-gradient(ellipse at top, hsl(38 35% 78% / 0.18), transparent 70%);
+
+    /* Shadows — feather-light */
+    --shadow-elegant: 0 24px 70px -28px hsl(215 22% 25% / 0.10);
+    --shadow-soft: 0 1px 8px -3px hsl(215 22% 25% / 0.05);
+    --shadow-gold: 0 12px 40px -14px hsl(38 35% 60% / 0.22);
+    --shadow-card: 0 1px 2px hsl(215 22% 25% / 0.02), 0 6px 20px -8px hsl(215 22% 25% / 0.04);
+
+    --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 36 33% 98%;
+    --foreground: 215 18% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 18% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 18% 22%;
+    --primary: 215 22% 20%;
+    --primary-foreground: 36 33% 98%;
+    --secondary: 36 30% 96%;
+    --secondary-foreground: 215 18% 22%;
+    --muted: 36 22% 94%;
+    --muted-foreground: 215 10% 42%;
+    --accent: 38 32% 60%;
+    --accent-foreground: 215 22% 20%;
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 36 33% 98%;
+    --border: 38 16% 88%;
+    --input: 38 16% 90%;
+    --ring: 38 32% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-weight: 300;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-display tracking-tight;
+    font-weight: 400;
+  }
+}
+
+@layer components {
+  .container-pro {
+    @apply mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-16;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.28em] text-accent;
+  }
+  .gold-line {
+    @apply inline-block h-px w-10 bg-accent;
+  }
+  .glass-card {
+    @apply rounded-xl border border-border/60 bg-card/90 backdrop-blur-md;
+    box-shadow: var(--shadow-card);
+  }
+}
+@layer utilities { .no-scrollbar::-webkit-scrollbar { display: none; } .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; } .h-13 { height: 3.25rem; } .w-13 { width: 3.25rem; } .h-18 { height: 4.5rem; } }
