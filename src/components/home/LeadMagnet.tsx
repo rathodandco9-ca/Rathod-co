@@ -14,7 +14,7 @@ export const LeadMagnet = () => (
               <span className="gold-line" /> Free Download
             </div>
             <h2 className="font-display text-3xl lg:text-4xl font-normal leading-tight text-primary">
-              The 2025 Compliance Checklist for Vadodara Businesses
+              The 2026 Compliance Checklist for Vadodara Businesses
             </h2>
             <p className="mt-5 text-muted-foreground leading-relaxed font-light">
               A printable yearly calendar of every GST, ITR, ROC and labour-law
@@ -33,7 +33,7 @@ export const LeadMagnet = () => (
               <div className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Get your free copy on WhatsApp</div>
               <div className="mt-3 font-display text-xl text-primary">Instant delivery, no email needed</div>
               <Button asChild variant="hero" size="lg" className="w-full mt-6">
-                <a href={SITE.whatsapp("Hi Akshay, please share the 2025 Compliance Checklist with me.")} target="_blank" rel="noopener noreferrer">
+                <a href={SITE.whatsapp("Hi Akshay, please share the 2026 Compliance Checklist with me.")} target="_blank" rel="noopener noreferrer">
                   <Download className="h-4 w-4" /> Send me the checklist
                 </a>
               </Button>

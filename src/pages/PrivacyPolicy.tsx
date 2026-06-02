@@ -32,7 +32,7 @@ const PrivacyPolicy = () => (
           contacting us, you agree to the practices described below.
         </p>
         <p className="mt-3 text-xs text-muted-foreground uppercase tracking-[0.2em]">
-          Last updated: January 2025
+          Last updated: January 2026
         </p>
       </div>
     </section>
