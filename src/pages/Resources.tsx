@@ -82,7 +82,7 @@ const Resources = () => (
           <span className="gold-line" /> Resources & Guides
         </div>
         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-          Practical reads for <span className="text-accent italic">smart</span> business owners
+          Practical reads for smart business owners
         </h1>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
           Plain-English guides on GST, ITR, registrations and compliance —
@@ -111,7 +111,7 @@ const Resources = () => (
                     {a.category}
                   </span>
                 </div>
-                <div className="absolute bottom-4 left-4 font-display text-3xl text-white italic drop-shadow-md">
+                <div className="absolute bottom-4 left-4 font-display text-3xl text-white drop-shadow-md">
                   0{i + 1}
                 </div>
               </div>

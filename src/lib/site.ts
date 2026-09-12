@@ -8,7 +8,7 @@ export const SITE = {
   phone2Raw: "919426824673",
   email: "caakshay001@gmail.com",
   address:
-    "FF-10, Shree Shiddheshwar Plaza, Near Khodiar Nagar Cross Road, Behind Sakar Complex, Ajwa Road, Vadodara – 390019",
+    "FF-10, Shree Shiddheshwar Plaza, Near Khodiar Nagar Cross Road, Beside Sakar Complex, Ajwa Road, Vadodara – 390019",
   city: "Vadodara",
   whatsapp: (msg = "Hi Akshay, I'd like to know more about your services.") =>
     `https://wa.me/919408352976?text=${encodeURIComponent(msg)}`,

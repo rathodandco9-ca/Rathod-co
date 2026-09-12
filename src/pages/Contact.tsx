@@ -18,7 +18,7 @@ const Contact = () => (
           <span className="gold-line" /> Get In Touch
         </div>
         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-          Let&rsquo;s simplify your <span className="text-accent italic">compliance.</span>
+          Let&rsquo;s simplify your compliance.
         </h1>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
           Reach us on WhatsApp for the fastest response. Call us, email us, or
@@ -44,13 +44,11 @@ const Contact = () => (
                 key={c.label}
                 {...(c.href ? { href: c.href } : {})}
                 {...(c.external ? { target: "_blank", rel: "noreferrer" } : {})}
-                className={`flex gap-4 p-5 rounded-2xl bg-card border transition-all ${
-                  c.href ? "hover:shadow-card hover:border-accent/40" : ""
-                } border-border`}
+                className={`flex gap-4 p-5 rounded-2xl bg-card border transition-all ${c.href ? "hover:shadow-card hover:border-accent/40" : ""
+                  } border-border`}
               >
-                <div className={`h-11 w-11 rounded-lg grid place-items-center shrink-0 ${
-                  c.accent ? "bg-whatsapp text-whatsapp-foreground" : "bg-accent-soft text-accent"
-                }`}>
+                <div className={`h-11 w-11 rounded-lg grid place-items-center shrink-0 ${c.accent ? "bg-whatsapp text-whatsapp-foreground" : "bg-accent-soft text-accent"
+                  }`}>
                   <c.icon className="h-5 w-5" />
                 </div>
                 <div>

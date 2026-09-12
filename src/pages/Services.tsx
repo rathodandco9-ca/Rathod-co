@@ -25,7 +25,7 @@ const Services = () => {
             <span className="gold-line" /> Our Services
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-            Every compliance need, <span className="text-accent italic">expertly handled.</span>
+            Every compliance need, expertly handled.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             20+ services across tax, registrations, company formation,
@@ -82,7 +82,7 @@ const Services = () => {
                   </ul>
                   <div className="mt-auto flex flex-col gap-3 w-full">
                     <Button asChild variant="soft" className="w-full">
-                        <a href={SITE.whatsapp(`Hi Akshay, I'd like to enquire about ${s.title}.`)} target="_blank" rel="noopener noreferrer">
+                      <a href={SITE.whatsapp(`Hi Akshay, I'd like to enquire about ${s.title}.`)} target="_blank" rel="noopener noreferrer">
                         <MessageCircle className="h-4 w-4" /> Enquire on WhatsApp
                       </a>
                     </Button>

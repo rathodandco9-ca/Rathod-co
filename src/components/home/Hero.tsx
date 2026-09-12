@@ -16,8 +16,7 @@ export const Hero = () => (
           Vadodara · Trusted Since 2010
         </div>
         <h1 className="font-display text-4xl sm:text-5xl lg:text-[68px] font-normal leading-[1.05] tracking-tight text-primary">
-          Reliable <span className="text-accent italic">Tax</span> &amp; Business
-          Registration Services in <span className="italic text-accent">Vadodara</span>
+          Reliable Tax &amp; Business Registration Services in Vadodara
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl leading-relaxed font-light">
           From GST and ITR to Pvt Ltd registration — get expert guidance,
