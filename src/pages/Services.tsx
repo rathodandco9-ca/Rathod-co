@@ -25,7 +25,7 @@ const Services = () => {
             <span className="gold-line" /> Our Services
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-            Every compliance need, expertly handled.
+            Every compliance need, <span className="text-accent">expertly handled.</span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             20+ services across tax, registrations, company formation,

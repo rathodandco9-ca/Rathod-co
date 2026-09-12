@@ -28,7 +28,7 @@ const About = () => (
             <span className="gold-line" /> About Rathod &amp; Co.
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-            Honest tax advice. Real business support.
+            Honest tax advice. <span className="text-accent">Real</span> business support.
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
             Rathod &amp; Co. is a Vadodara-based tax consultancy founded by{" "}
