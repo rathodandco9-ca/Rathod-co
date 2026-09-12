@@ -35,7 +35,7 @@ const Contact = () => (
             { icon: Phone, label: "Call Us", value: SITE.phone2, href: SITE.tel2 },
             { icon: MessageCircle, label: "WhatsApp", value: "Chat instantly", href: SITE.whatsapp(), external: true, accent: true },
             { icon: Mail, label: "Email", value: SITE.email, href: SITE.mailto },
-            { icon: MapPin, label: "Office", value: SITE.address },
+            { icon: MapPin, label: "Office", value: SITE.address, href: SITE.mapsUrl, external: true },
             { icon: Clock, label: "Hours", value: "Mon – Sat · 10:00 AM – 6:00 PM" },
           ].map((c) => {
             const Wrapper: any = c.href ? "a" : "div";
@@ -81,7 +81,12 @@ const Contact = () => (
             className="w-full"
           />
         </div>
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-wrap justify-center gap-4">
+          <Button asChild variant="outline" size="lg">
+            <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer">
+              <MapPin className="h-4 w-4" /> Open in Google Maps
+            </a>
+          </Button>
           <Button asChild variant="hero" size="lg">
             <a href={SITE.whatsapp()} target="_blank" rel="noopener noreferrer">
               <MessageCircle className="h-4 w-4" /> Chat on WhatsApp

@@ -16,7 +16,9 @@ export const SITE = {
   tel2: "tel:+919426824673",
   mailto: "mailto:caakshay001@gmail.com",
   mapsEmbed:
-    "https://www.google.com/maps?q=Ajwa+Road+Vadodara+390019&output=embed",
+    "https://www.google.com/maps?q=22.315157,73.231978&hl=en&z=17&output=embed",
+  mapsUrl:
+    "https://www.google.com/maps/place/22%C2%B018'54.6%22N+73%C2%B013'55.1%22E/@22.315157,73.231978,17z",
   yearsExperience: 15,
   clientsServed: 1200,
   servicesCount: 20,
