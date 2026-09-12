@@ -11,7 +11,8 @@ export const ContactCTA = () => (
           <span className="gold-line" /> Talk to Akshay
         </div>
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-primary leading-[1.1]">
-          Get a free consultancy — <span className="text-accent">today.</span>
+          Get a free consultancy —{" "}
+          <span className="text-accent italic">today.</span>
         </h2>
         <p className="text-muted-foreground leading-relaxed text-lg">
           Tell us what you need. We&rsquo;ll respond on WhatsApp within minutes

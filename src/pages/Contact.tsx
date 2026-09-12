@@ -18,7 +18,7 @@ const Contact = () => (
           <span className="gold-line" /> Get In Touch
         </div>
         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-primary leading-[1.05]">
-          Let&rsquo;s simplify your <span className="text-accent">compliance.</span>
+          Let&rsquo;s simplify your <span className="text-accent italic">compliance.</span>
         </h1>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
           Reach us on WhatsApp for the fastest response. Call us, email us, or
